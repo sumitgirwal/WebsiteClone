@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #25272a;
+  --blue: #35a7ff;
+  --dark: #212424;
+}
+
+ 
+
+a {
+  text-decoration: none;
+}
+
+li {
+  color: var(--blue);
+  font-size: 12px;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 3000px;
+}
+
+.header {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.trybtn {
+  background-color: ffd37f;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  padding: 12px 60px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin: 20px 0;
+}
+
+.trybtn:hover {
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 26px;
+  color: #25272a;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+  margin: 6px 0;
+  color: #25272a;
+}
+
+.partitle {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #47494b;
+}
+
+.foottitle {
+  font-size: 10px;
+  color:  #8e8e8e;
+}
+
+.hero2 {
+  background-color: #35a7ff;
+  color: var(--black);
+  padding: 50px 0;
+  
+ 
+  
+}
+.hero2-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  gap: 20px;
+  
+}
+
+.hero2-left {
+  color: #25272a;
+  font-size: 34px;
+  width: 500px;
+  direction: rtl;
+  font-weight: 700;
+   letter-spacing: 1px;
+  line-height: 48px;
+}
+
+.hero2-right {
+  width: 100%;
+  color: #25272a;
+  line-height: 28px;
+}
+
+div::selection,
+h4::selection,
+h3::selection {
+  color: #35a7ff;
+  background: #25272a;
+}
+
+.herolearn-contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herolearn-left {
+  color: #25272a;
+}
+
+.herolearn-left h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.hero-people {
+
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
